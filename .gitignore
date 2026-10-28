@@ -1,0 +1,51 @@
+# Zugangsdaten: bleiben ausschliesslich lokal
+/wclogsclient*.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/.streamlit/*
+!/.streamlit/config.toml
+
+# Python-Umgebung, Bytecode und Werkzeug-Caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Lokale Auswertungen und Caches: nur oeffentliche Startdaten versionieren
+/data/*
+!/data/raid_zones_seed.json
+!/data/public_demo.json
+
+# Diagnose, Screenshots, Messungen und temporaere Dateien
+/.analyze/
+/.tmp/
+/artifacts/
+*.log
+
+# Alte Exportpakete werden fuer die direkte Veroeffentlichung nicht benoetigt
+/release/
+/release-*.zip
+
+# Lokale Entwicklerwerkzeuge mit privaten Entwicklungsdatensaetzen
+/capture_sample.py
+/capture_boss_details.py
+/refresh_healing_sample.py
+/profile_api.py
+/profile_optional.py
+/prepare_cloud_release.py
+/README.txt
+
+# Editor- und Betriebssystemdateien
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

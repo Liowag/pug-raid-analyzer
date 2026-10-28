@@ -1,0 +1,4 @@
+Official favicons, downloaded 2026-10-28:
+Warcraft Logs: https://assets.rpglogs.com/img/warcraft/favicon.png
+Raider.IO: https://raider.io/favicon.ico
+Used locally for profile link identification.

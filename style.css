@@ -1,0 +1,18 @@
+.block-container { max-width: 1500px; padding: 2rem; }
+[data-testid="stAppViewContainer"] { background: #080a0d; }
+h1 { letter-spacing: -.05em; font-weight: 800 !important; }
+h2, h3 { letter-spacing: -.025em; }
+[data-testid="stMetric"] { background: #10151c; border: 1px solid #303846; border-top: 2px solid #8241a2; padding: 18px; }
+[data-testid="stMetricValue"] { color: #8ebeff; }
+[data-testid="stExpander"] { background: #0f1218; border-color: #30343e; }
+.raid-banner { border: 1px solid #49314e; background: linear-gradient(110deg,#231326,#101720); padding: 22px 26px; margin: 12px 0 24px; }
+.raid-banner .eyebrow { color: #bb92d3; font-size: 11px; letter-spacing: .15em; text-transform: uppercase; }
+.raid-banner h2 { margin: 5px 0; padding: 0; font-size: 28px; }
+.raid-banner p { color: #aeb9c8; margin: 6px 0 0; font-size: 13px; }
+.section-label { color: #aeb9c8; text-transform: uppercase; font-size: 11px; letter-spacing: .14em; margin-top: 24px; }
+button[kind="primary"] { background: #713c88; border-color: #a563bc; }
+[role="dialog"] [data-testid="stHorizontalBlock"] {flex-wrap:nowrap!important;gap:.65rem!important}
+[role="dialog"] [data-testid="stColumn"] {min-width:0!important;flex:1 1 0!important;width:auto!important}
+[role="dialog"] [data-testid="stNumberInput"] input {min-width:0!important}
+
+.st-key-analysis_activity {position:sticky;top:.4rem;z-index:100;background:#10151c;border:1px solid #64417a;border-radius:.5rem;padding:.6rem;margin:.5rem 0}
